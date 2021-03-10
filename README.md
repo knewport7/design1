@@ -7,5 +7,8 @@
     <li><a href="lab3/index.html" target="_blank">Lab3 - Basic HTML and HTML Semantics</a></li>
     <li><a href="lab3/index.html" target="_blank">Lab4 - Introduction to CSS</a></li>
 </ul>
+<li><a href="midterm/index.hmtl" target="_blank">Midterm - Midterm Project</a></li>
+</ul>
+
 
 
