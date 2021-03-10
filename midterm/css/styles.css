@@ -1,0 +1,84 @@
+/* Global Styles */
+
+body {
+    background-color: pink;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+/* Main Styles */  
+
+#container {
+    background-color: lightpink;
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+header {
+    background-color: black;
+}
+
+header img {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+nav a {
+    background-color: black;
+    color: lightgray;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+main {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main img {
+    display: block;
+    width: 75%;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 2px solid pink;
+    box-shadow: 5px 10px 10px white;
+
+
+}
+
+footer {
+    background-color: lightgray;
+    padding: 40px;
+    text-align: center;
+}
