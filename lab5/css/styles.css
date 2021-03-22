@@ -1,0 +1,68 @@
+/* Global Styles */
+
+body {
+    background-color: lightskyblue;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: darkcyan;
+}
+
+a:hover {
+    color:darkslateblue;
+    text-decoration: darkblue;
+}
+
+/* Mobile Styles */
+
+header {
+    background-color: darkslateblue;
+    padding: 40px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 15px 0;
+    border-top: 1px skyblue;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: slateblue;
+}
+
+nav ul a:hover {
+    background-color: teal;
+}
+
+main {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    background-color: darkslateblue;
+    text-align: center;
+    padding: 20px 0;
+    margin: 10px;
+}
+
+
