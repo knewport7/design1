@@ -17,6 +17,10 @@ a:hover {
     text-decoration: darkblue;
 }
 
+h2 {
+    text-align: center;
+}
+
 /* Mobile Styles */
 
 header {
@@ -24,6 +28,7 @@ header {
     padding: 40px 0;
     text-align: center;
 }
+
 
 nav {
     background-color: whitesmoke;
@@ -42,7 +47,7 @@ nav li {
 nav li a {
     display: block;
     padding: 15px 0;
-    border-top: 1px skyblue;
+    border-top: 1px solid skyblue;
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: slateblue;
