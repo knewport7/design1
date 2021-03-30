@@ -8,6 +8,7 @@
     <li><a href="lab3/index.html" target="_blank">Lab4 - Introduction to CSS</a></li>
     <li><a href="midterm/index.html" target="_blank">Midterm - Midterm Project</a></li>
     <li><a href="lab5/index.html" target="_blank">Lab 5 - Responsive Design for Mobile</a></li>
+    <li><a href="lab6/index.html" target="_blank">Lab 6 - Responsive Design for Tablet and Desktop</a></li>
 </ul>
 
 

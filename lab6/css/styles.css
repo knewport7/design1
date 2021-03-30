@@ -1,0 +1,160 @@
+/* Global Styles */
+
+body {
+    background-color: lightskyblue;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: darkcyan;
+}
+
+a:hover {
+    color:darkslateblue;
+    text-decoration: darkblue;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Mobile Styles */
+
+header {
+    background-color: darkslateblue;
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+nav {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 15px 0;
+    border-top: 1px solid skyblue;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: slateblue;
+}
+
+nav ul a:hover {
+    background-color: teal;
+}
+
+main {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    background-color: darkslateblue;
+    text-align: center;
+    padding: 20px 0;
+    margin: 10px;
+}
+
+.desktop {
+    display: none;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) {
+    header {
+    background-image: url('../images/fortnitebackgroud.jpeg');
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 0;
+}
+
+header h1 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 3em;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    padding: 10px 40px;
+}
+
+main {
+    display: flex;
+}
+
+section, aside {
+    border: 4px solid white;
+    padding: 20px;
+    margin: 10px;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 1024px){
+    header {
+        background-image: url('../images/fortnitebackground2.jpeg');
+        padding: 150px 0;
+    }
+
+    header h1 {
+        font-size: 80px;
+    }
+
+    nav li a {
+        font-size: 30px;
+        padding: 20px 75px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: 4px solid teal;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .tab_mobile {
+        display: none;
+    }
+
+    .active {
+        background-color: teal;
+    }
+
+    main img {
+        border-radius: 20px;
+        border: 4px solid white;
+    }
+}
