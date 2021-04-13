@@ -118,7 +118,14 @@ footer {
 		background-color: #ffffff;
 		padding: 10px;
 		margin-top: 1%;
-	}
+}
+
+.dragcars img {
+	width: 100%;
+	margin: 1% 0;
+	border-radius: 10px;
+}
+
 
 @media only screen and (min-width: 481px) {
 	nav {
@@ -165,5 +172,4 @@ footer {
 		width: 100%;
 		border-radius: 20px;
 	}
-
 }
