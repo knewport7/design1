@@ -160,7 +160,10 @@ footer {
 	}
 
 	.projects img {
+		display: block;
 		margin: 1%;
+		width: 100%;
+		border-radius: 20px;
 	}
 
 }
