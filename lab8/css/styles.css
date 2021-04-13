@@ -1,0 +1,166 @@
+body {
+	background-color: #b3a29a;
+}
+
+header {
+	background-color: #88b3af;
+	color: #F5FFFE;
+	padding: 15% 2%;
+	text-align: center;
+	font-size: 125%;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+nav {
+	background-color: #fff8f5;
+}
+
+nav ul {
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: block;
+}
+
+nav li a {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 0;
+	background-color:#F5FFFE;
+	text-align: center;
+	color: #88B3AF;
+	font-size: 125%;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #B3A29A;
+	color: #fff8f5
+}
+
+main {
+	background-color: #88b3af;
+	padding: 10px;
+}
+
+article {
+	background-color: #ffffff;
+	padding: 2%;
+}
+
+article img {
+	display: block;
+	margin: 20px auto;
+	width: 100%;
+	border-radius: 20px;
+}
+
+.projects {
+	background-color: #ffffff;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+.projects img {
+	display: block;
+	width: 100%;
+	margin: 1% 0;
+	border-radius: 10px;
+}
+
+aside {
+	background-color: #ffffff;
+	margin: 1% 0;
+	padding: 2%;
+	text-align: center;
+}
+
+aside h4 {
+	margin-bottom: 40px;
+}
+
+aside ul {
+	padding: 0;
+	list-style: none;
+}
+
+aside li {
+	display: inline-block;
+}
+
+aside li a {
+	padding: 20px 40px;
+	background-color: #B3A29A;
+	text-align: center;
+	color: #F5FFFE;
+	font-size: 125%;
+	text-decoration: none;
+
+}
+
+aside li a:hover {
+	background-color: #88B3AF;
+}
+
+footer {
+	background-color: #B3A29A;
+	text-align: center;
+	color: #ffffff;
+	padding: 20px 0;
+}
+
+.feature {
+		background-color: #ffffff;
+		padding: 10px;
+		margin-top: 1%;
+	}
+
+@media only screen and (min-width: 481px) {
+	nav {
+		text-align: center;
+	}
+
+	nav li {
+		display: inline-block;
+		width: 24.5%;
+	}
+
+	nav li a {
+		background-color: #88B3AF;
+		color: #F5FFFE;
+	}
+	
+}
+
+@media only screen and (min-width: 791px) {
+	
+	header {
+		font-size: 3.0em;
+	}
+	
+	article img {
+		display: block;
+		margin: 20px auto;
+		width: 65%;
+	}
+	
+	.feature {
+		background-color: #ffffff;
+		padding: 20px;
+		margin-top: 1%;
+	}
+	
+	.projects {
+		display: flex;
+	}
+
+	.projects img {
+		margin: 1%;
+	}
+
+}

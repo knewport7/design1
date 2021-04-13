@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag Cars</title>
+    <link href="css/normalize.css" rel="styleheet" type="text/ccs">
+    <link href="css/styles.css" rel="stylesheet" type="text/ccs">
+    <link rel="stylesheet" href="dist/slicknav.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="styleheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="dist/jquery.slicknav.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/zenscroll-min.js"></script>
+<script>
+        $(function () {
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+            $("#accordion").accordion();
+            $("#tabs").tabs();
+        });
+</script>
+</head>
+<body id="top">
+    <div id="container">
+    <header>
+        <h1>Different Cars</h1>
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#main">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article>
+
+                <div class="slider">
+                <h2 id="main">Main Content</h2>
+                <p>Lately I have been very interested in drag racing. A couple of years ago me and my family decided to purchase a car and fix it up to take to the drag strip.
+                    I now know someone that has also fixed up an older car and races it. I have figured out so much stuff about cars over the years and I have been doing a lot of 
+                    research on how to build a car for racing, but have not got the time to do so, but I plan on building a car in the near future. 
+                </p>
+                <div><img src="images/dragcar1.jpg" alt="dragcar"></div>
+        
+            <div id="slider">
+                <h3>Section 1</h3>
+                <div>
+                  <p>
+                  One of the cars that my family and I have fixed was a Corvette. It took a lot of time and effort to figure out the things to be fixed. However, all of the time researching
+                  has paid off because now I know what needs to be done for cars in the future. 
+                  </p>
+                </div>
+                <h3>Section 2</h3>
+                <div>
+                  <p>
+                  There are many different cars that can be turned into drag cars. Almost any car can be trasformed into anything you want it to be. For instance if you wanted to race a truck you can. You can re build any car you 
+                  dream of racing all you need to do is do lots of research to make sure the stuff you are changing is correct for it to run like a drag car. 
+                  </p>
+                </div>
+                
+                  <ul>
+                    <li>Change Motor</li>
+                    <li>Change Tires</li>
+                    <li>Do Research For Type of Car</li>
+                  </ul>
+                </div>
+               
+                </div>
+              </div>
+              <a class="button" href="#top"> Back To The Top</a>
+            </article>
+            <div class="feature">
+                <h3 id="portfolio">Drag Cars</h3>
+                <div class="dragcars">
+                    <img src="images/dragcar3.jpg" alt="dragcar">
+                    <img src="images/dragcar2.jpg" alt="dragcar">
+                    <img src="images/dragcar4.jpg" alt="dragcar">
+                    <img src="images/dragcar5.jpg" alt="dragcar">
+                    </div>
+                    <aside id="contact">
+                        <h3>Contact Info</h3>
+                        <h4>Brainard Motorsports Park</h4>
+                        <ul>
+                            <li><a href="#">Email</a></li>
+                            <li><a href="706-891-9831">Call</a></li>
+                        </ul>
+                        </aside>
+                    </section>
+                        </main>
+
+                <footer>&copy;2021 - Lab 8 - Drag Cars</footer>
+    </div>
+</body>
+</html>
